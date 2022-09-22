@@ -27,6 +27,7 @@ class MainActivity : AppCompatActivity() {
         Log.d("Estado","$t")
         val tiempo: TextView = findViewById(R.id.my_time)
         tiempo.text= "La aplicacion se ejecuto $t seg antes de pausarla"
+
     }
 
 
